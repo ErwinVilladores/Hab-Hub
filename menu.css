@@ -1,0 +1,160 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: serif;
+}
+h6 a{
+	list-style: none;
+	text-decoration: none;
+	color: white;
+}
+
+
+         /*nav*/
+nav{
+	background-color: white;
+	display: grid;
+	place-items: left;
+	border-style: solid;
+	border-color: orange;
+
+}
+.Search{
+	float: right;
+	padding: 20px;
+	border-style: none;
+	font-size: 20px;
+	margin-left: 100px;
+	
+}
+nav ul{
+	list-style-type: none;
+}
+nav ul a{
+	display: inline-block;
+	padding: 25px;
+	text-decoration: none;
+	color: black;
+	align-items: flex-start;
+	
+}
+nav ul a:hover{
+	background-color: orange;
+}
+
+h2{
+	text-align: center;
+	padding: 30px;
+	font-size: 30px;
+	background-color: burlywood;
+}
+
+.items{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	padding: 50px 50px;
+	grid-row-gap: 30px;
+	grid-column-gap: 10px;
+	background-color: white;
+	
+}
+.item img{
+	width: 90%;
+	height: 300px;
+	object-fit: cover;
+	cursor: pointer;
+	transition: 0.2s ease;
+}
+.item img:hover{
+	transform: scale(1.09);
+}
+.item h4{
+	padding: 10px;
+	text-align: center;
+	font-size: 18px;
+}
+.item h5{
+	padding: 10px;
+	text-align: center;
+	font-size: 13px;
+}
+.item button{
+	padding: 5px 30px;
+	border: none;
+	outline: none;
+	background-color: orange;
+	color: white;
+	cursor: pointer;
+	border-radius: 4px;
+	font-size: 20px;
+	display: block;
+	margin: auto;
+}
+.item button:hover{
+	transform: scale(1.08);
+}
+.item a{
+	text-decoration: none;
+}
+/*footer*/
+
+.inner-footer{
+	margin: 0;
+	padding: 0;
+	background-color: white;
+}
+.social-link{
+	display: flex;
+}
+.social-link ul{
+	padding: 20px;
+	display: flex;
+	width: 330px;
+	height: 3 0px;
+	margin: auto;
+}	
+.social-item{
+	list-style: none;
+}
+.social-item a{
+	padding: 10px 20px;
+	font-size: 35px;
+	color: orange;
+}
+.quick-link{
+	display: flex;
+	width: 500px;
+	height: 70px;
+	margin: auto;
+}
+.quick-link ul{
+	display: flex;
+}
+.quick-item{
+	list-style: none;
+}
+.quick-item a{
+	text-decoration: none;
+	padding: 0px 15px;
+	font-size: 18px;
+	color: black;
+
+}
+.quick-item a:hover{
+	color: orange;
+
+}
+.outer-footer{
+	padding: 15px;
+	text-align: center;
+	color: black;
+	font-size: 18px;
+	background-color:#DDE1E6;
+}
+.footer{
+	border-style: solid;
+	border-color: orange;
+}
+
+
